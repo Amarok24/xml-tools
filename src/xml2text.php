@@ -1,16 +1,14 @@
 #!/usr/bin/env php
 <?php
 /*
-	xml2text (CLI version, implemented with XMLReader)
-	Author: Jan Prazak
-	Website: https://github.com/Amarok24
-	Date: 2023-04-05
-	License: The Unlicense
+xml2text (CLI version, implemented with XMLReader)
+Author: Jan Prazak
+Website: https://github.com/Amarok24
+Date: 2023-04-05
+License: The Unlicense
 */
 
 declare(strict_types=1);
-
-require 'lib/stdouterr.php';
 
 /**
  * @return bool True on success, false on failure.
@@ -21,12 +19,13 @@ function parse_xml(): bool
 	$xmlreader = null;
 	$result = true;
 
- 	// Manually process errors at a later point.
+	// Manually process errors at a later point.
 	libxml_use_internal_errors(true);
 
 	// https://www.php.net/manual/en/book.xmlreader.php
 	$xmlreader = new XMLReader();
 	$xmlreader->open('php://stdin');
+	//$xmlreader->open(STDIN); // Doesn't work because STDIN is a resource.
 
 	while ($xmlreader->read()) {
 		if ($xmlreader->nodeType === XMLReader::ELEMENT) {
@@ -48,6 +47,8 @@ function parse_xml(): bool
 		}
 	}
 
+	out("\n");
+
 	// XMLReader cannot be used in a try..catch block, it does not throw
 	// any Throwable objects, it outputs the errors directly.
 	// Therefore a manual processing of errors is nice.
@@ -60,14 +61,14 @@ function parse_xml(): bool
 			err('Error level: ');
 
 			switch ($e->level) {
-				case 1:
+				case LIBXML_ERR_WARNING:
 					err('XML_ERR_WARNING');
 					break;
-				case 2:
+				case LIBXML_ERR_ERROR:
 					err('XML_ERR_ERROR');
 					$result = false;
 					break;
-				case 3:
+				case LIBXML_ERR_FATAL:
 					err('XML_ERR_FATAL');
 					$result = false;
 					break;
@@ -86,26 +87,80 @@ function parse_xml(): bool
 	return $result;
 }
 
-// main
-if (parse_xml())
-	exit(0);
-else
-	exit(1);
+/**
+ * Writes to STDOUT.
+ * @return bool|int The number of bytes written or false on failure.
+ *
+ * https://www.php.net/manual/en/features.commandline.io-streams.php
+ * Already opened streams STDIN, STDOUT and STDERR don't need to be
+ * explicitly closed, they are closed automatically at the end of a program.
+ */
+function out(string $s): bool|int
+{
+	return fwrite(STDOUT, $s);
+}
 
-/*
+/**
+ * Writes to STDERR.
+ * @return bool|int The number of bytes written or false on failure.
+ */
+function err(string $s): bool|int
+{
+	return fwrite(STDERR, $s);
+}
 
-Usage on command line:
-Rename xml2text.php to xml2text, make sure it can be executed or run
-chmod +x ./xml2text
 
-Read an XML with cURL, use a pipe into xml2text and write output to a file,
-errors will be written to stderr (they will be printed into the terminal).
->> curl "http://example.com/rss-feed" | xml2text > feed.txt
+function main(int $argc, array $argv): int
+{
+	$USAGE = <<<TEXT
+xml2text 1.0
+Converts XML to human-readable text.
 
-Same as above, but redirect errors to error.log file.
->> curl "http://example.com/rss-feed" | xml2text > feed.txt 2> error.log
+PARAMETERS:
+-x  Prints libXML version used in local PHP installation.
+-p  Prints PHP version of local installation.
+-h  Shows this help page.
 
-Read an XML with cURL, use a pipe into xml2text and output it through `more`.
->> curl "http://example.com/rss-feed" | xml2text | more
+USAGE EXAMPLES:
+curl "http://example.com/rss-feed" | xml2text > output.txt
+cat feed.xml | xml2text > output.txt 2> errors.log
+echo '<msg id="1"><content>Hello</content></msg>' | xml2text
+\n
+TEXT;
 
-*/
+	if ($argc === 2) {
+		switch ($argv[1]) {
+			case '-x':
+				print 'libXML version ' . LIBXML_DOTTED_VERSION . "\n";
+				return 0;
+			case '-p':
+				print 'PHP version ' . PHP_VERSION . "\n";
+				return 0;
+			case '-h':
+				print $USAGE;
+				return 0;
+			default:
+				print "Invalid parameter.\n";
+				return 1;
+		}
+	}
+
+	if ($argc > 2) {
+		print "Too many parameters.\n";
+		return 1;
+	}
+
+	if ($argc === 1 && stream_isatty(STDIN)) {
+		print "Nothing to do. Use -h parameter to show help.\n";
+		// file_get_contents('php://stdin');
+		return 0;
+	}
+
+	if (parse_xml())
+		return 0;
+	else
+		return 1;
+}
+
+
+exit(main($argc, $argv));
