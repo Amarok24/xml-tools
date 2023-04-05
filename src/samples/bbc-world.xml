@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News - World]]></title>
+        <description><![CDATA[BBC News - World]]></description>
+        <link>https://www.bbc.co.uk/news/</link>
+        <image>
+            <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News - World</title>
+            <link>https://www.bbc.co.uk/news/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Tue, 04 Apr 2023 15:53:34 GMT</lastBuildDate>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Nato's border with Russia doubles as Finland joins]]></title>
+            <description><![CDATA[Finland hands over the document to become the 31st Nato member, in a setback for Russia's Vladimir Putin.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-65173043?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-65173043</guid>
+            <pubDate>Tue, 04 Apr 2023 14:30:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Darya Trepova: Russia cafe bomb suspect charged with terrorism]]></title>
+            <description><![CDATA[Darya Trepova was arrested on Monday after the St Petersburg killing of pro-war blogger Vladlen Tatarsky.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-65178006?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-65178006</guid>
+            <pubDate>Tue, 04 Apr 2023 13:12:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bangladesh market engulfed by fire as many shops burned down]]></title>
+            <description><![CDATA[There have been no reported deaths from the fire, which burned down thousands of shops.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-65180300?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-asia-65180300</guid>
+            <pubDate>Tue, 04 Apr 2023 14:43:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Virgin Orbit: Richard Branson's rocket firm files for bankruptcy]]></title>
+            <description><![CDATA[The satellite launch company has failed to secure new investment after a rocket launch failed.]]></description>
+            <link>https://www.bbc.co.uk/news/business-65172594?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-65172594</guid>
+            <pubDate>Tue, 04 Apr 2023 11:00:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Arunachal Pradesh: India rejects China's attempt to rename disputed places]]></title>
+            <description><![CDATA[Delhi's comments come amid reports that China has renamed 11 places along a disputed Himalayan border region.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-india-65134534?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-asia-india-65134534</guid>
+            <pubDate>Tue, 04 Apr 2023 07:30:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dutch rail crash: One dead after passenger train hits crane and derails]]></title>
+            <description><![CDATA[The crash happened when a passenger train hit a construction crane near the village of Voorschoten.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-65170980?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-65170980</guid>
+            <pubDate>Tue, 04 Apr 2023 11:58:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Climate change: Catalonia in grip of worst drought in decades]]></title>
+            <description><![CDATA[Water levels at a reservoir in the northern Spanish region have fallen below 10% of its capacity.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-65129735?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-65129735</guid>
+            <pubDate>Tue, 04 Apr 2023 04:09:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Khalid al-Jabouri: US says IS Europe attack planner killed in Syria strike]]></title>
+            <description><![CDATA[Khalid al-Jabouri was the target of a strike on Monday that reportedly took place in Idlib province.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-65172448?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-middle-east-65172448</guid>
+            <pubDate>Tue, 04 Apr 2023 14:57:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Child attacked by dingo on Australia's K'gari-Fraser Island]]></title>
+            <description><![CDATA[A young girl is airlifted to hospital after being bitten at popular tourist spot K'gari-Fraser Island.]]></description>
+            <link>https://www.bbc.co.uk/news/world-australia-65171305?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-australia-65171305</guid>
+            <pubDate>Tue, 04 Apr 2023 05:22:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Australian rugby and NFL star Jarryd Hayne guilty of rape]]></title>
+            <description><![CDATA[It is the third time the former Parramatta Eels player has faced trial on the same allegations.]]></description>
+            <link>https://www.bbc.co.uk/news/world-australia-65158946?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-australia-65158946</guid>
+            <pubDate>Tue, 04 Apr 2023 07:03:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Irvo Otieno: Death of man in police custody ruled a homicide]]></title>
+            <description><![CDATA[The 28-year-old died in March while being transferred from a jail to a mental health facility.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-65176984?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-65176984</guid>
+            <pubDate>Tue, 04 Apr 2023 15:42:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[BTS' Jimin first S Korea solo artist to top US Billboard charts]]></title>
+            <description><![CDATA[Jimin has debuted his new single Like Crazy at the top of the Billboard Hot 100 rankings.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-65171919?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-asia-65171919</guid>
+            <pubDate>Tue, 04 Apr 2023 05:11:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Can Trump turn prosecution into an election asset?]]></title>
+            <description><![CDATA[The former president's historic court date in Manhattan is also an election campaign event.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-65171542?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-65171542</guid>
+            <pubDate>Tue, 04 Apr 2023 03:16:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ukraine war: Who are Russia's war bloggers and why are they popular?]]></title>
+            <description><![CDATA[Vladlen Tatarsky, killed in a cafe blast, was one of Russia's "war correspondents". But who are they?]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-65179954?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-65179954</guid>
+            <pubDate>Tue, 04 Apr 2023 14:59:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Timed Teaser: Where are Pablo Escobar's hippos heading?]]></title>
+            <description><![CDATA[Test your knowledge of the news these last few days - 10 questions, 10 seconds each. Go!]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-65158613?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-65158613</guid>
+            <pubDate>Mon, 03 Apr 2023 17:38:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why the Wisconsin Supreme Court election matters]]></title>
+            <description><![CDATA[The most important race you’ve never heard of is happening in Wisconsin.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-64639408?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-64639408</guid>
+            <pubDate>Mon, 03 Apr 2023 22:04:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Angola landmines: The women hunting for explosives left from civil war]]></title>
+            <description><![CDATA[Clearing the remnants of Angola's war is dangerous but many are keen to stop the needless deaths.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-65163673?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-africa-65163673</guid>
+            <pubDate>Mon, 03 Apr 2023 23:06:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Life after Daft Punk: Thomas Bangalter on ballet, AI and ditching the helmet]]></title>
+            <description><![CDATA[The musician discusses Daft Punk's demise, the rise of Artificial Intelligence and his new ballet.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-65140938?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/entertainment-arts-65140938</guid>
+            <pubDate>Mon, 03 Apr 2023 23:08:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A nutty solution for cleaner stoves and barbecues]]></title>
+            <description><![CDATA[Cleaner fuels for cooking could improve health and be better for the environment.]]></description>
+            <link>https://www.bbc.co.uk/news/business-64821804?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-64821804</guid>
+            <pubDate>Mon, 03 Apr 2023 23:04:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ramadan: How to look after your skin during holy month]]></title>
+            <description><![CDATA[TikTok's most famous dermatologist Dr Muneeb Shah is sharing his top tips for the holy month.]]></description>
+            <link>https://www.bbc.co.uk/news/newsbeat-65162353?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/newsbeat-65162353</guid>
+            <pubDate>Mon, 03 Apr 2023 23:11:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Trump arraignment: Private plane, agents, protests expected on journey]]></title>
+            <description><![CDATA[A widely-tracked flight from Florida to New York preceded the former US president's appearance in court.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-65165590?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-65165590</guid>
+            <pubDate>Tue, 04 Apr 2023 03:44:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Darya Trepova: What we know about accused in Russian blogger Vladlen Tatarsky's killing]]></title>
+            <description><![CDATA[Darya Trepova seems to be an opponent of the invasion, but friends say she was not radical.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-65161900?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-65161900</guid>
+            <pubDate>Mon, 03 Apr 2023 16:05:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Afghanistan: Rounded up from the streets into Taliban drug rehab]]></title>
+            <description><![CDATA[Afghanistan's government is running an aggressive campaign to remove drug users from the streets.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-65138423?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-asia-65138423</guid>
+            <pubDate>Mon, 03 Apr 2023 00:27:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mexico migrants 'didn't deserve to die this way']]></title>
+            <description><![CDATA[There is growing outrage over a fire which killed at least 39 people at a migrant centre in Mexico.]]></description>
+            <link>https://www.bbc.co.uk/news/world-latin-america-65148023?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-latin-america-65148023</guid>
+            <pubDate>Mon, 03 Apr 2023 01:05:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The other Chinese apps taking the US and UK by storm]]></title>
+            <description><![CDATA[Four out of the top 10 most downloaded free mobile apps in the US and UK are Chinese-owned.]]></description>
+            <link>https://www.bbc.co.uk/news/technology-65072407?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/technology-65072407</guid>
+            <pubDate>Mon, 03 Apr 2023 00:52:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The moment Finland joined Nato security alliance]]></title>
+            <description><![CDATA[The Finnish foreign minister handed over the accession document, making the country the 31st to join Nato.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-65179108?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-65179108</guid>
+            <pubDate>Tue, 04 Apr 2023 13:48:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Watch stunning EarthCam clip of NYC lightning strike]]></title>
+            <description><![CDATA[A massive bolt hit the tallest building in New York City, lighting up the night sky on Saturday.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-65118225?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-65118225</guid>
+            <pubDate>Mon, 03 Apr 2023 22:31:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Russia: The moments leading up to St Petersburg cafe blast]]></title>
+            <description><![CDATA[Russian pro-war blogger Vladlen Tatarsky was killed by an explosion after being handed a statuette.]]></description>
+            <link>https://www.bbc.co.uk/news/world-65167787?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-65167787</guid>
+            <pubDate>Mon, 03 Apr 2023 19:08:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[World's deepest fish: Expedition chief on how video was filmed]]></title>
+            <description><![CDATA[Scientist Alan Jamieson explains how his team captured footage 8,336m (27,349ft) under water.]]></description>
+            <link>https://www.bbc.co.uk/news/science-environment-65163939?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/science-environment-65163939</guid>
+            <pubDate>Mon, 03 Apr 2023 11:46:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Lightning storm illuminates skies above Illinois]]></title>
+            <description><![CDATA[The phenomenon was seen just days after a series of tornadoes ripped through several US states, including Illinois.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-65163579?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-65163579</guid>
+            <pubDate>Mon, 03 Apr 2023 10:27:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Andrew Tate: See luxury villa where brothers are under house arrest]]></title>
+            <description><![CDATA[The BBC's Lucy Williamson looks at the compound where Andrew Tate and brother Tristan are confined.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-65150613?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-65150613</guid>
+            <pubDate>Sat, 01 Apr 2023 22:23:46 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
