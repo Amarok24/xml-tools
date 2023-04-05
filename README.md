@@ -16,3 +16,6 @@ errors will be written to stderr (they will be printed into the terminal).
 
 ### Read an XML with cURL, use a pipe into xml2text and output it through `more`.
 `curl "http://example.com/rss-feed" | xml2text | more`
+
+### Examples
+Input file `/src/samples/bbc-world.xml`, output `/src/samples/bbc-world.txt`.
